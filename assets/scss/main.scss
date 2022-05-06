@@ -1,0 +1,43 @@
+.container{
+    margin-top: 150px;
+    .row{
+        .links{
+            padding: 0;
+            ul{
+                li{
+                    list-style-type: none;
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                        border-radius: 15px 15px 0 0;
+                        padding: 20px 85px;
+                        background-color: grey;
+                        &:hover{
+                            background-color: #56BDC6;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.service{
+    display: flex;
+    border: 1px solid grey;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    border-top: 5px solid #56BDC6;
+    .title{
+        padding: 0 0 0 70px;
+        p{
+            width: 80%;
+        }
+    }
+    .image{
+        width: 300px;
+        img{
+            width: 100%;
+        }
+    }
+}
